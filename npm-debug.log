@@ -1,0 +1,230 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/nodejs/node-v4.4.1-linux-x64/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose readDependencies loading dependencies from /home/mcaligares/projects/mcaligares/flisol/biblioteca-app/package.json
+5 warn package.json flisol-tilcara@1.1.1 No repository field.
+6 warn package.json flisol-tilcara@1.1.1 No README data
+7 warn package.json flisol-tilcara@1.1.1 No license field.
+8 verbose install where, deps [ '/home/mcaligares/projects/mcaligares/flisol/biblioteca-app',
+8 verbose install   [ 'gulp',
+8 verbose install     'gulp-sass',
+8 verbose install     'gulp-concat',
+8 verbose install     'gulp-minify-css',
+8 verbose install     'gulp-rename',
+8 verbose install     'bower',
+8 verbose install     'gulp-util',
+8 verbose install     'shelljs' ] ]
+9 verbose install where, peers [ '/home/mcaligares/projects/mcaligares/flisol/biblioteca-app',
+9 verbose install   [] ]
+10 verbose installManyTop reading for lifecycle /home/mcaligares/projects/mcaligares/flisol/biblioteca-app/package.json
+11 info preinstall flisol-tilcara@1.1.1
+12 verbose readDependencies loading dependencies from /home/mcaligares/projects/mcaligares/flisol/biblioteca-app/package.json
+13 silly cache add args [ 'gulp-concat@../local_modules/gulp-concat', null ]
+14 verbose cache add spec gulp-concat@../local_modules/gulp-concat
+15 silly cache add args [ 'gulp-minify-css@../local_modules/gulp-minify-css', null ]
+16 verbose cache add spec gulp-minify-css@../local_modules/gulp-minify-css
+17 silly cache add args [ 'gulp-rename@../local_modules/gulp-rename', null ]
+18 verbose cache add spec gulp-rename@../local_modules/gulp-rename
+19 silly cache add args [ 'bower@../local_modules/bower', null ]
+20 verbose cache add spec bower@../local_modules/bower
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: 'gulp-concat@../local_modules/gulp-concat',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'gulp-concat',
+21 silly cache add   rawSpec: '../local_modules/gulp-concat',
+21 silly cache add   spec: '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-concat',
+21 silly cache add   type: 'directory' }
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'gulp-minify-css@../local_modules/gulp-minify-css',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'gulp-minify-css',
+22 silly cache add   rawSpec: '../local_modules/gulp-minify-css',
+22 silly cache add   spec: '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-minify-css',
+22 silly cache add   type: 'directory' }
+23 silly cache add args [ 'gulp-util@../local_modules/gulp-util', null ]
+24 verbose cache add spec gulp-util@../local_modules/gulp-util
+25 silly cache add args [ 'shelljs@../local_modules/shelljs', null ]
+26 verbose cache add spec shelljs@../local_modules/shelljs
+27 silly cache add args [ 'gulp@../local_modules/gulp', null ]
+28 verbose cache add spec gulp@../local_modules/gulp
+29 silly cache add args [ 'gulp-sass@../local_modules/gulp-sass', null ]
+30 verbose cache add spec gulp-sass@../local_modules/gulp-sass
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: 'gulp-rename@../local_modules/gulp-rename',
+31 silly cache add   scope: null,
+31 silly cache add   name: 'gulp-rename',
+31 silly cache add   rawSpec: '../local_modules/gulp-rename',
+31 silly cache add   spec: '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-rename',
+31 silly cache add   type: 'directory' }
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'bower@../local_modules/bower',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'bower',
+32 silly cache add   rawSpec: '../local_modules/bower',
+32 silly cache add   spec: '/home/mcaligares/projects/mcaligares/flisol/local_modules/bower',
+32 silly cache add   type: 'directory' }
+33 silly cache add parsed spec Result {
+33 silly cache add   raw: 'gulp-util@../local_modules/gulp-util',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'gulp-util',
+33 silly cache add   rawSpec: '../local_modules/gulp-util',
+33 silly cache add   spec: '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-util',
+33 silly cache add   type: 'directory' }
+34 silly cache add parsed spec Result {
+34 silly cache add   raw: 'shelljs@../local_modules/shelljs',
+34 silly cache add   scope: null,
+34 silly cache add   name: 'shelljs',
+34 silly cache add   rawSpec: '../local_modules/shelljs',
+34 silly cache add   spec: '/home/mcaligares/projects/mcaligares/flisol/local_modules/shelljs',
+34 silly cache add   type: 'directory' }
+35 silly cache add parsed spec Result {
+35 silly cache add   raw: 'gulp@../local_modules/gulp',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'gulp',
+35 silly cache add   rawSpec: '../local_modules/gulp',
+35 silly cache add   spec: '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp',
+35 silly cache add   type: 'directory' }
+36 silly cache add parsed spec Result {
+36 silly cache add   raw: 'gulp-sass@../local_modules/gulp-sass',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'gulp-sass',
+36 silly cache add   rawSpec: '../local_modules/gulp-sass',
+36 silly cache add   spec: '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-sass',
+36 silly cache add   type: 'directory' }
+37 verbose addLocalDirectory /home/mcaligares/.npm/gulp-concat/2.6.1/package.tgz not in flight; packing
+38 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+39 warn deprecated gulp-minify-css@0.3.13: Please use gulp-clean-css
+40 verbose addLocalDirectory /home/mcaligares/.npm/gulp-minify-css/0.3.13/package.tgz not in flight; packing
+41 verbose correctMkdir /home/mcaligares/.npm correctMkdir already in flight; waiting
+42 verbose addLocalDirectory /home/mcaligares/.npm/gulp-rename/1.2.2/package.tgz not in flight; packing
+43 verbose correctMkdir /home/mcaligares/.npm correctMkdir already in flight; waiting
+44 verbose addLocalDirectory /home/mcaligares/.npm/bower/1.8.0/package.tgz not in flight; packing
+45 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+46 verbose addLocalDirectory /home/mcaligares/.npm/gulp-util/2.2.20/package.tgz not in flight; packing
+47 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+48 verbose addLocalDirectory /home/mcaligares/.npm/gulp-sass/2.3.2/package.tgz not in flight; packing
+49 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+50 verbose tar pack [ '/home/mcaligares/.npm/gulp-concat/2.6.1/package.tgz',
+50 verbose tar pack   '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-concat' ]
+51 verbose tarball /home/mcaligares/.npm/gulp-concat/2.6.1/package.tgz
+52 verbose folder /home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-concat
+53 info prepublish gulp-concat@2.6.1
+54 verbose tar pack [ '/home/mcaligares/.npm/gulp-minify-css/0.3.13/package.tgz',
+54 verbose tar pack   '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-minify-css' ]
+55 verbose tarball /home/mcaligares/.npm/gulp-minify-css/0.3.13/package.tgz
+56 verbose folder /home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-minify-css
+57 info prepublish gulp-minify-css@0.3.13
+58 verbose tar pack [ '/home/mcaligares/.npm/gulp-rename/1.2.2/package.tgz',
+58 verbose tar pack   '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-rename' ]
+59 verbose tarball /home/mcaligares/.npm/gulp-rename/1.2.2/package.tgz
+60 verbose folder /home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-rename
+61 info prepublish gulp-rename@1.2.2
+62 verbose addLocalDirectory /home/mcaligares/.npm/shelljs/0.3.0/package.tgz not in flight; packing
+63 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+64 verbose addLocalDirectory /home/mcaligares/.npm/gulp/3.9.1/package.tgz not in flight; packing
+65 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+66 verbose tar pack [ '/home/mcaligares/.npm/bower/1.8.0/package.tgz',
+66 verbose tar pack   '/home/mcaligares/projects/mcaligares/flisol/local_modules/bower' ]
+67 verbose tarball /home/mcaligares/.npm/bower/1.8.0/package.tgz
+68 verbose folder /home/mcaligares/projects/mcaligares/flisol/local_modules/bower
+69 info prepublish bower@1.8.0
+70 verbose tar pack [ '/home/mcaligares/.npm/gulp-util/2.2.20/package.tgz',
+70 verbose tar pack   '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-util' ]
+71 verbose tarball /home/mcaligares/.npm/gulp-util/2.2.20/package.tgz
+72 verbose folder /home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-util
+73 info prepublish gulp-util@2.2.20
+74 verbose tar pack [ '/home/mcaligares/.npm/gulp-sass/2.3.2/package.tgz',
+74 verbose tar pack   '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-sass' ]
+75 verbose tarball /home/mcaligares/.npm/gulp-sass/2.3.2/package.tgz
+76 verbose folder /home/mcaligares/projects/mcaligares/flisol/local_modules/gulp-sass
+77 info prepublish gulp-sass@2.3.2
+78 verbose tar pack [ '/home/mcaligares/.npm/shelljs/0.3.0/package.tgz',
+78 verbose tar pack   '/home/mcaligares/projects/mcaligares/flisol/local_modules/shelljs' ]
+79 verbose tarball /home/mcaligares/.npm/shelljs/0.3.0/package.tgz
+80 verbose folder /home/mcaligares/projects/mcaligares/flisol/local_modules/shelljs
+81 info prepublish shelljs@0.3.0
+82 verbose tar pack [ '/home/mcaligares/.npm/gulp/3.9.1/package.tgz',
+82 verbose tar pack   '/home/mcaligares/projects/mcaligares/flisol/local_modules/gulp' ]
+83 verbose tarball /home/mcaligares/.npm/gulp/3.9.1/package.tgz
+84 verbose folder /home/mcaligares/projects/mcaligares/flisol/local_modules/gulp
+85 info prepublish gulp@3.9.1
+86 verbose unsafe-perm in lifecycle true
+87 info gulp@3.9.1 Failed to exec prepublish script
+88 error addLocalDirectory Could not pack /home/mcaligares/projects/mcaligares/flisol/local_modules/gulp to /home/mcaligares/.npm/gulp/3.9.1/package.tgz
+89 error addLocal Could not install /home/mcaligares/projects/mcaligares/flisol/local_modules/gulp
+90 verbose addLocalTarball adding from inside cache /home/mcaligares/.npm/gulp-rename/1.2.2/package.tgz
+91 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+92 silly cache afterAdd gulp-rename@1.2.2
+93 verbose afterAdd /home/mcaligares/.npm/gulp-rename/1.2.2/package/package.json not in flight; writing
+94 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+95 verbose addLocalTarball adding from inside cache /home/mcaligares/.npm/gulp-concat/2.6.1/package.tgz
+96 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+97 verbose afterAdd /home/mcaligares/.npm/gulp-rename/1.2.2/package/package.json written
+98 silly cache afterAdd gulp-concat@2.6.1
+99 verbose afterAdd /home/mcaligares/.npm/gulp-concat/2.6.1/package/package.json not in flight; writing
+100 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+101 verbose afterAdd /home/mcaligares/.npm/gulp-concat/2.6.1/package/package.json written
+102 verbose addLocalTarball adding from inside cache /home/mcaligares/.npm/gulp-sass/2.3.2/package.tgz
+103 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+104 verbose addLocalTarball adding from inside cache /home/mcaligares/.npm/gulp-minify-css/0.3.13/package.tgz
+105 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+106 silly cache afterAdd gulp-sass@2.3.2
+107 verbose afterAdd /home/mcaligares/.npm/gulp-sass/2.3.2/package/package.json not in flight; writing
+108 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+109 silly cache afterAdd gulp-minify-css@0.3.13
+110 verbose afterAdd /home/mcaligares/.npm/gulp-minify-css/0.3.13/package/package.json not in flight; writing
+111 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+112 verbose afterAdd /home/mcaligares/.npm/gulp-sass/2.3.2/package/package.json written
+113 verbose afterAdd /home/mcaligares/.npm/gulp-minify-css/0.3.13/package/package.json written
+114 verbose addLocalTarball adding from inside cache /home/mcaligares/.npm/gulp-util/2.2.20/package.tgz
+115 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+116 silly cache afterAdd gulp-util@2.2.20
+117 verbose afterAdd /home/mcaligares/.npm/gulp-util/2.2.20/package/package.json not in flight; writing
+118 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+119 verbose afterAdd /home/mcaligares/.npm/gulp-util/2.2.20/package/package.json written
+120 verbose addLocalTarball adding from inside cache /home/mcaligares/.npm/shelljs/0.3.0/package.tgz
+121 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+122 silly cache afterAdd shelljs@0.3.0
+123 verbose afterAdd /home/mcaligares/.npm/shelljs/0.3.0/package/package.json not in flight; writing
+124 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+125 verbose afterAdd /home/mcaligares/.npm/shelljs/0.3.0/package/package.json written
+126 verbose addLocalTarball adding from inside cache /home/mcaligares/.npm/bower/1.8.0/package.tgz
+127 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+128 silly cache afterAdd bower@1.8.0
+129 verbose afterAdd /home/mcaligares/.npm/bower/1.8.0/package/package.json not in flight; writing
+130 verbose correctMkdir /home/mcaligares/.npm correctMkdir not in flight; initializing
+131 verbose afterAdd /home/mcaligares/.npm/bower/1.8.0/package/package.json written
+132 verbose stack Error: gulp@3.9.1 prepublish: `marked-man --name gulp docs/CLI.md > gulp.1`
+132 verbose stack spawn ENOENT
+132 verbose stack     at ChildProcess.<anonymous> (/opt/nodejs/node-v4.4.1-linux-x64/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+132 verbose stack     at emitTwo (events.js:87:13)
+132 verbose stack     at ChildProcess.emit (events.js:172:7)
+132 verbose stack     at maybeClose (internal/child_process.js:827:16)
+132 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+133 verbose pkgid gulp@3.9.1
+134 verbose cwd /home/mcaligares/projects/mcaligares/flisol/biblioteca-app
+135 error Linux 4.2.0-34-generic
+136 error argv "/opt/nodejs/node-v4.4.1-linux-x64/bin/node" "/usr/local/bin/npm" "install"
+137 error node v4.4.1
+138 error npm  v2.14.20
+139 error file sh
+140 error code ELIFECYCLE
+141 error errno ENOENT
+142 error syscall spawn
+143 error gulp@3.9.1 prepublish: `marked-man --name gulp docs/CLI.md > gulp.1`
+143 error spawn ENOENT
+144 error Failed at the gulp@3.9.1 prepublish script 'marked-man --name gulp docs/CLI.md > gulp.1'.
+144 error This is most likely a problem with the gulp package,
+144 error not with npm itself.
+144 error Tell the author that this fails on your system:
+144 error     marked-man --name gulp docs/CLI.md > gulp.1
+144 error You can get information on how to open an issue for this project with:
+144 error     npm bugs gulp
+144 error Or if that isn't available, you can get their info via:
+144 error
+144 error     npm owner ls gulp
+144 error There is likely additional logging output above.
+145 verbose exit [ 1, true ]

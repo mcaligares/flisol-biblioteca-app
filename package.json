@@ -1,0 +1,26 @@
+{
+  "name": "flisol-tilcara",
+  "version": "1.1.1",
+  "description": "flisol-tilcara: An Ionic project",
+  "dependencies": {
+    "gulp": "../local_modules/gulp",
+    "gulp-sass": "../local_modules/gulp-sass",
+    "gulp-concat": "../local_modules/gulp-concat",
+    "gulp-minify-css": "../local_modules/gulp-minify-css",
+    "gulp-rename": "../local_modules/gulp-rename"
+  },
+  "devDependencies": {
+    "bower": "../local_modules/bower",
+    "gulp-util": "../local_modules/gulp-util",
+    "shelljs": "../local_modules/shelljs"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": []
+}
